@@ -22,15 +22,15 @@ const skillsData = [
 
 const Skills = () => {
   return (
-    <div className="flex flex-row justify-between mt-12 ml-14 mr-14 flex-wrap lg:flex-nowrap sm:w-max">
-      <div className="mt-14 lg:w-1/2 w-full">
-        <span className="flex text-primaryLight lg:font-bold translate-y-4 text-base lg:mt-2">
+    <div className="flex flex-row justify-between mt-12 ml-14 mr-14 flex-wrap lg:flex-nowrap ">
+      <div className="mt-14 flex-wrap w-full  lg:flex-nowrap flex flex-col">
+        <span className="flex text-primaryLight lg:font-bold rotate-[-16deg] mb-16 text-base lg:mt-2">
           Skills
         </span>
         <h1 className="font-bold lg:text-6xl text-2xl flex mt-6 flex-wrap lg:text-left text-center">
           Skills and <br /> Experience
         </h1>
-        <p className="flex lg:mt-6 font-semibold lg:text-xl flex-wrap lg:text-left text-center">
+        <p className="flex lg:mt-6 font-semibold lg:text-xl flex-wrap sm:text-left lg:text-left text-center">
           We Help ambitious business like your generate more
           <br /> profits by building awerness, driving web traffic <br />{" "}
           connecting with customers and growing overall{" "}
@@ -38,10 +38,10 @@ const Skills = () => {
         <div className="flex mt-14 flex-col">
           <h1 className="font-bold lg:text-4xl text-2xl flex">Skills</h1>
 
-          <div className="grid grid-cols-3 lg:grid-cols-4">
+          <div className="grid grid-cols-3  lg:grid-cols-3">
             {skillsData.map((data) => {
               return (
-                <div className="p-4">
+                <div className="p-2">
                   <img src={data.image} className="h-16 w-16" />
                   <span className="mt-6 font-bold text-center flex">
                     {data.name}
@@ -53,63 +53,71 @@ const Skills = () => {
         </div>
       </div>
 
-      <div className="lg:mt-28 mt-6 flex flex-col w-full">
-        <p className="flex font-bold lg:text-4xl text-2xl">Experience</p>
-        <hr className="mt-8 w-auto border-black border-2" />
+      <div className="lg:mt-28 mt-6 flex  justify-between flex-col ">
+        <p className="flex font-bold lg:text-4xl  text-2xl">Experience</p>
+        <hr className="mt-8 lg:w-auto md:w-auto w-72 flex justify-end border-black" />
 
-        <div className="flex mt-8">
-          <span className=" text-2xl text-secondaryGray">2022 - Present</span>
+        <div className="flex  mt-8">
+          <span className=" lg:text-lg lg:font-semibold text-xs md:text-lg sm:text-xl text-text-black">
+            2022 - Present
+          </span>
           <div className="flex flex-col">
-            <h1 className="font-semibold lg:text-4xl text-xl ml-9 ">
+            <h1 className="font-semibold lg:text-4xl md:text-2xl text-xl lg:ml-9 ml-4 ">
               Web Development
             </h1>
-            <span className="flex mt-4 ml-11 font-bold text-secondaryGray">
+            <span className="flex mt-4 lg:ml-11 ml-5 md:text-lg  lg:font-bold font-semibold text-darkgray">
               NESL-IT
             </span>
           </div>
         </div>
 
-        <hr className="mt-8 w-auto border-black border-2" />
+        <hr className="mt-8 lg:w-auto md:w-auto w-72 border-black " />
 
         <div className="flex mt-8">
-          <span className=" text-2xl text-secondaryGray">2022 - Present</span>
+          <span className=" lg:text-lg lg:font-semibold text-xs md:text-lg sm:text-xl text-text-black">
+            2022 - Present
+          </span>
           <div className="flex flex-col">
-            <h1 className="font-semibold lg:text-4xl text-xl ml-9 ">
+            <h1 className="font-semibold lg:text-4xl md:text-2xl text-xl lg:ml-9 ml-4 ">
               UI/UX Designer
             </h1>
-            <span className="flex mt-4 ml-11 font-bold text-secondaryGray">
+            <span className="flex mt-4 lg:ml-11 ml-5 md:text-lg  lg:font-bold font-semibold text-darkgray">
               NESL-IT
             </span>
           </div>
         </div>
 
-        <hr className="mt-8 w-auto border-black border-2" />
+        <hr className="mt-8 lg:w-auto md:w-auto w-72 border-black " />
 
         <div className="flex mt-8">
-          <span className=" text-2xl text-secondaryGray">2022 - Present</span>
+          <span className=" lg:text-lg lg:font-semibold text-xs md:text-lg sm:text-xl text-black">
+            2022 - Present
+          </span>
           <div className="flex flex-col">
-            <h1 className="font-semibold lg:text-4xl text-xl ml-9 ">
+            <h1 className="font-semibold lg:text-4xl md:text-2xl text-xl lg:ml-9 ml-4 ">
               Web UI/UX Designer
             </h1>
-            <span className="flex mt-4 ml-11 font-bold text-secondaryGray">
+            <span className="flex mt-4 lg:ml-11 ml-5 md:text-lg  lg:font-bold font-semibold text-darkgray">
               NESL-IT
             </span>
           </div>
         </div>
         <div className="flex relative">
           <div className="flex justify-end lg:justify-center ">
-            <img
-              src={containerImage}
-              alt="image"
-              className="object-contain  left-56"
-            />
+            <img src={containerImage} alt="image" className="object-contain " />
           </div>
 
-          <div className="bg-black rounded-full border h-40 w-40 lg:top-80 md:top-80 md:right-48 top-56 lg:right-48 right-24 absolute ">
-            <p className="bg-black rounded-full border-slate-50 border-2 p-6 m-4 ">
-              <span className="text-slate-50 flex justify-center m-1 p-2">
+          <div
+            className="bg-black border h-44 w-44  top-36 left-12
+              flex justify-center items-center 
+              rounded-full  sm:mt-20 sm:ml-16 lg:top-28 
+              lg:left-[3rem] md:top-52  
+          md:left-[7rem]  absolute  "
+          >
+            <p className="bg-black rounded-full border h-36 w-36   items-center ">
+              <span className="text-slate-50 flex justify-center content-center mt-12 text-sm font-bold m-1 p-2">
                 Hire me
-                <span className="p-2">
+                <span className="pl-5 font-bold text-xl text-primary">
                   <BsArrowUpRight />
                 </span>
               </span>

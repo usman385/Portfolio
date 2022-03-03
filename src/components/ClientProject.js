@@ -6,10 +6,14 @@ import { MdWavingHand } from "react-icons/md";
 
 const ClientProject = () => {
   return (
-    <div className=" flex flex-col justify-between mt-24 lg:ml-14 flex-wrap lg:flex-nowrap lg:mr-14 mr-0 sm:mr-0 bg-primary ">
+    <div
+      className=" flex flex-col justify-between  mt-24 lg:ml-14 flex-wrap lg:flex-nowrap
+    rounded-b-md
+    lg:mr-14 mr-0 sm:mr-0 mb-4 bg-primary "
+    >
       <div className=" flex flex-wrap lg:flex-nowrap justify-around lg:pl-8 ">
         <div className="relative">
-          <span className=" flex text-primaryLight lg:font-bold mt-14 skew-y-3 skew-x-12 absolute">
+          <span className=" flex text-primaryLight lg:font-bold rotate-[-16deg] mt-14 absolute">
             Contact
           </span>
           <h1 className="flex font-bold lg:text-6xl text-2xl text-left mt-20">
@@ -25,11 +29,9 @@ const ClientProject = () => {
                 <RiMessage2Fill />
               </span>
             </div>
-            <div className="flex flex-col text-left">
-              <span className="flex lg:ml-16 ml-0 font-bold text-secondaryGray">
-                Email
-              </span>
-              <p className="mt-4 lg:ml-16 ml-0 font-bold lg:text-2xl text-lg">
+            <div className="flex flex-col text-left ml-6">
+              <span className="flex  font-bold text-darkgray">Email</span>
+              <p className="mt-1 ml-0 font-bold lg:text-2xl text-lg">
                 khanu6935@gmail.com
               </p>
             </div>
@@ -43,41 +45,45 @@ const ClientProject = () => {
             >
               <BiCurrentLocation />
             </button>
-            <div className="flex flex-col text-left">
-              <span className="flex lg:ml-16 ml-0 font-bold text-secondaryGray">
-                Location
-              </span>
-              <p className="mt-4 lg:ml-16 ml-0 font-bold lg:text-2xl text-lg">
+            <div className="flex flex-col text-left ml-6">
+              <span className="flex  font-bold text-darkgray">Location</span>
+              <p className="mt-1 font-bold lg:text-2xl text-lg">
                 Rawalpindi Pakistan
               </p>
             </div>
           </div>
         </div>
 
-        <div className="flex items-center flex-wrap lg:flex-nowrap">
-          <div className="bg-primary rounded-full border-2 border-black lg:h-96 lg:w-96 h-64 w-64 ">
-            <div className="text-secondaryGray flex items-center justify-around mt-40">
-              <div className="flex justify-center">
-                <span className="lg:mt-8 mt-0 m-5 text-zinc-900 font-bold">
-                  Say Hi!
-                </span>
-                <span className="text-amber-900 text-4xl">
-                  <MdWavingHand />
-                </span>
-              </div>
-              <button
-                className="  bg-primaryLight text-secondaryGray p-9 pl-9 rounded-full
-            hover:bg-secondaryGray text-4xl hover:text-black flex justify-end"
-              >
-                <BsArrowUpRight />
-              </button>
+        <div
+          className="bg-primary rounded-full border-2 border-black
+          flex flex-col  justify-center items-center flex-wrap lg:flex-nowrap
+         lg:h-[36rem] lg:w-[36rem] md:h-96 md:w-96 h-[21rem] w-[21rem] mt-[4rem] "
+        >
+          <div className="flex justify-between">
+            <div className="mr-7 mt-16">
+              <span className="lg:mt-32 mt-0 ml-8 text-zinc-900 font-bold">
+                Say Hi!
+              </span>
+              <span className="text-amber-900 mt-24 text-4xl">
+                <MdWavingHand />
+              </span>
             </div>
+
+            <button
+              className="  bg-primaryLight text-secondaryGray p-9 pl-9 rounded-full mt-12 ml-12
+            hover:bg-secondaryGray lg:text-6xl md:text-2xl text-xl hover:text-black flex justify-end"
+            >
+              <BsArrowUpRight />
+            </button>
+          </div>
+          <div>
+            <hr className="lg:w-[22rem] md:w-[19rem] w-[17rem] mt-2 ml-2 mr-6 origin-center rotate-[14deg] border-black  " />
           </div>
         </div>
       </div>
-      <hr className="mt-10 border-2 border-black ml-8 mr-8" />
-      <div className="flex lg:flex-nowrap flex-wrap justify-around mt-10">
-        <p className="flex font-bold">2022 All Right Reserved</p>
+      <hr className="mt-10 border border-black ml-28 mr-28 " />
+      <div className="flex lg:flex-nowrap flex-wrap justify-between pl-28 pr-28 mt-4 pb-14">
+        <p className="flex font-bold"> ©2022 All Right Reserved</p>
         <p className="flex font-bold">Designed By Usman khan</p>
         <p className="flex font-bold">khanu6935@gmail.com</p>
       </div>

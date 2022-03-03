@@ -5,10 +5,12 @@ module.exports = {
     extend: {
       colors: {
         ...defaultColors,
-        primary: "#FDC413",
-        primaryLight: "#8A2BE2",
+        primary: "#FCDA69",
+        primaryLight: "#8873F0",
         secondary: "#000000",
-        secondaryGray: "#95A3A4",
+        secondaryGray: "#FFFFFF",
+        bgsecondaryGray: "#F6F6F6",
+        darkgray: "#656467",
       },
     },
   },

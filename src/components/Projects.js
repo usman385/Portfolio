@@ -7,7 +7,7 @@ const Projects = () => {
   return (
     <div className="flex bg-primary justify-between lg:ml-14 ml-0 mr-0 lg:mr-14 flex-wrap lg:justify-around">
       <div className=" flex flex-col pl-4">
-        <span className="flex text-primaryLight lg:font-bold translate-y-4 text-base lg:mt-2">
+        <span className="flex text-primaryLight lg:font-bold rotate-[-16deg] text-base lg:mt-2">
           Projects
         </span>
         <h1 className="font-bold lg:text-6xl text-2xl flex flex-wrap text-left mt-10">

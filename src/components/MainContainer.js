@@ -10,9 +10,9 @@ import {
 
 const MainContainer = () => {
   return (
-    <div className="flex flex-row flex-wrap mt-8 justify-around">
+    <div className="flex flex-row flex-wrap mt-8  justify-around">
       <div className="flex flex-col">
-        <span className="flex ml-11 text-primaryLight translate-y-4 text-2xl">
+        <span className="flex  text-primaryLight  rotate-[-16deg] mb-12 mr-10 text-2xl">
           Hello!
         </span>
         <h1 className="font-bold from-neutral-900 lg:text-8xl text-6xl lg:text-left text-center">
@@ -25,13 +25,13 @@ const MainContainer = () => {
           <br /> interface design for Companies all across the world.
         </p>
         <div className="flex mt-5 p-3 lg:justify-start justify-center">
-          <button className="mr-4 bg-primaryLight lg:p-5 lg:pl-10 p-2 pt-4 pl-4 rounded-lg text-secondary font-bold flex justify-center">
+          <button className="mr-4 bg-primaryLight lg:p-5 lg:pl-10 p-2 pt-4 pl-4 rounded-lg text-bgsecondaryGray font-bold flex justify-center">
             Lets Talk
             <span className="pt-1 pl-3">
               <BiNavigation />
             </span>
           </button>
-          <button className="mr-4 bg-primaryLight lg:p-5 lg:pl-10 p-2 pt-4 pl-4 rounded-lg  text-secondary font-bold flex">
+          <button className="mr-4 bg-primaryLight lg:p-5 lg:pl-10 p-2 pt-4 pl-4 rounded-lg  text-bgsecondaryGray font-bold flex">
             Portfolio
             <span className="pt-1 pl-3">
               <button>
@@ -45,14 +45,14 @@ const MainContainer = () => {
           <p className="mt-8 lg:text-lg text-md lg:text-left text-center font-semibold">
             Check Out My
           </p>
-          <div className="flex gap-5">
-            <button className="rounded-full flex justify-center p-5 lg:p-7 text-secondary bg-secondaryGray">
+          <div className="flex ml-8 gap-5">
+            <button className="rounded-full flex lg:text-3xl justify-center p-5 lg:p-7 text-secondary bg-bgsecondaryGray">
               <BsInstagram />
             </button>
-            <button className="rounded-full flex justify-center p-5 lg:p-7 bg-secondaryGray">
+            <button className="rounded-full flex lg:text-3xl justify-center p-5 lg:p-7 bg-bgsecondaryGray">
               <BsLinkedin />
             </button>
-            <button className="rounded-full flex justify-center p-5 lg:p-7 bg-secondaryGray">
+            <button className="rounded-full flex lg:text-3xl justify-center p-5 lg:p-7 bg-bgsecondaryGray">
               <BsFacebook />
             </button>
           </div>
@@ -64,7 +64,7 @@ const MainContainer = () => {
         <img
           src={containerImage}
           alt="image"
-          className="object-contain mb-56"
+          className="object-contain lg:mb-56 mb-0"
         />
         <p className="text-base font-bold">
           "People ignore Design
