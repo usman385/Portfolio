@@ -37,7 +37,7 @@ const ClientProject = () => {
             </div>
           </div>
 
-          <hr className="mt-28 w-auto border-black border-2 rounded-md mr-4" />
+          <hr className="lg:mt-28 mt-20 w-auto border-black border-2 rounded-md mr-4" />
           <div className="flex mt-8">
             <button
               className="  bg-secondaryGray text-secondary p-4 pl-4 rounded-full
@@ -60,7 +60,7 @@ const ClientProject = () => {
          lg:h-[36rem] lg:w-[36rem] md:h-96 md:w-96 h-[21rem] w-[21rem] mt-[4rem] "
         >
           <div className="flex justify-between">
-            <div className="mr-7 mt-16">
+            <div className="mr-7 lg:mt-16 mt-12">
               <span className="lg:mt-32 mt-0 ml-8 text-zinc-900 font-bold">
                 Say Hi!
               </span>

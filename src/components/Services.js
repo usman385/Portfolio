@@ -1,6 +1,5 @@
 import React from "react";
 import { BsArrowUpRight } from "react-icons/bs";
-import stamp from "../assets/images/stamp.png";
 
 const Services = () => {
   return (
@@ -9,13 +8,13 @@ const Services = () => {
     lg:justify-around justify-center lg:mt-12 mt-0
      lg:ml-14 lg:mr-14 mr-0 ml-0 flex-wrap md:content-center sm:pr-20"
     >
-      <div className="w-1/2 pl-10 lg:flex-nowrap flex-wrap">
-        <div className="mt-14 ">
-          <span className="flex text-primaryLight lg:font-bold rotate-[-16deg] mb-20 text-base lg:mt-2">
+      <div className="lg:w-1/2  w-full items-center  pl-10 lg:flex-nowrap flex lg:flex-col flex-row  flex-wrap  relative">
+        <div className="mt-14 flex flex-col lg:justify-center justify-start lg:content-center content-start ">
+          <span className="flex text-primaryLight lg:font-bold rotate-[-16deg] lg:mb-20 md:mb:10 absolute top-14   text-base lg:mt-2">
             Services
           </span>
           <h1 className="font-bold lg:text-8xl text-2xl  flex mt-8 flex-wrap text-left">
-            Services I<br /> offer
+            Services I offer
           </h1>
           <p className="flex lg:mt-6 font-semibold lg:text-xl text-sm text-left">
             We Help ambitious business like your generate more
@@ -23,12 +22,31 @@ const Services = () => {
             connecting with customers and growing overall{" "}
           </p>
         </div>
+
+        <div
+          className="bg-primary  rounded-full border-2 border-black
+          flex content-end  justify-center items-center flex-wrap lg:flex-nowrap
+         lg:h-48 lg:w-48 md:h-36 md:w-36 h-20 w-20 mt-[4rem] absolute lg:top-[42rem]  md:bottom-0 bottom-24 lg:bottom-0
+         lg:left-44 md:left-[30rem] left-72 "
+        >
+          <p
+            className="bg-primary border-black  rounded-full border-2 lg:mb-0 mb-[0.37rem]
+           md:mb-3 h-16 w-16 lg:h-36 lg:w-36 md:h-28 md:w-28   items-center "
+          >
+            <span
+              className="text-primaryLight flex justify-center
+             content-center  lg:mt-9 md:mt-9 mt-3 lg:text-5xl md:text-4xl text-2xl font-bold m-1 p-2"
+            >
+              <BsArrowUpRight />
+            </span>
+          </p>
+        </div>
       </div>
       <div className="w-1/2 pr-10 flex flex-col lg:flex-nowrap flex-wrap">
-        <div className="mt-28 flex flex-col lg:flex-nowrap flex-wrap">
+        <div className="lg:mt-28 mt-12 flex flex-col lg:flex-nowrap flex-wrap">
           <hr className="mt-2 lg:ml-3 ml-12 w-auto border-[1px] border-black" />
 
-          <div className="flex  mt-10">
+          <div className="flex  mt-10 ">
             <span className="font-bold lg:text-2xl text-lg lg:pl-2 pl-5">
               01/
             </span>
