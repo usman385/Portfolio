@@ -23,12 +23,18 @@ const skillsData = [
 const Skills = () => {
   return (
     <div className="flex flex-row justify-between mt-12 ml-14 mr-14 flex-wrap lg:flex-nowrap ">
-      <div className="mt-14 flex-wrap w-full  lg:flex-nowrap flex flex-col">
-        <span className="flex text-primaryLight lg:font-bold rotate-[-16deg] mb-16 text-base lg:mt-2">
+      <div
+        className="mt-5 flex-wrap lg:w-1/2 w-full justify-center lg:content-start
+       content-center lg:items-start items-center  lg:flex-nowrap flex relative flex-col"
+      >
+        <span
+          className="flex text-primaryLight lg:font-bold rotate-[-16deg]
+         absolute lg:top-32 top-0 lg:left-0 md:left-52 left-4 text-base lg:mt-2 "
+        >
           Skills
         </span>
         <h1 className="font-bold lg:text-6xl text-2xl flex mt-6 flex-wrap lg:text-left text-center">
-          Skills and <br /> Experience
+          Skills and Experience
         </h1>
         <p className="flex lg:mt-6 font-semibold lg:text-xl flex-wrap sm:text-left lg:text-left text-center">
           We Help ambitious business like your generate more
@@ -42,7 +48,7 @@ const Skills = () => {
             {skillsData.map((data) => {
               return (
                 <div className="p-2">
-                  <img src={data.image} className="h-16 w-16" />
+                  <img src={data.image} alt="images" className="h-16 w-16" />
                   <span className="mt-6 font-bold text-center flex">
                     {data.name}
                   </span>
@@ -108,14 +114,14 @@ const Skills = () => {
           </div>
 
           <div
-            className="bg-black border h-44 w-44  top-36 left-12
+            className="bg-black border h-28 w-28 lg:h-44 lg:w-44 md:h-44 md:w-44 hover:animate-spin 2s linear;   top-[9rem] left-20
               flex justify-center items-center 
-              rounded-full  sm:mt-20 sm:ml-16 lg:top-28 
-              lg:left-[3rem] md:top-52  
+              rounded-full  sm:mt-20  sm:ml-16 lg:top-52 
+              lg:left-[7rem] md:top-52  
           md:left-[7rem]  absolute  "
           >
-            <p className="bg-black rounded-full border h-36 w-36   items-center ">
-              <span className="text-slate-50 flex justify-center content-center mt-12 text-sm font-bold m-1 p-2">
+            <p className="bg-black rounded-full border h-24 w-24 lg:h-36 lg:w-36 md:h-36 md:w-36   items-center ">
+              <span className="text-slate-50 flex justify-center content-center  lg:mt-12 md:mt-12 mt-6 lg:text-sm md:text-sm text-xs font-bold m-1 p-2">
                 Hire me
                 <span className="pl-5 font-bold text-xl text-primary">
                   <BsArrowUpRight />

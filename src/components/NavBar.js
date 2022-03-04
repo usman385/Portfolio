@@ -11,11 +11,19 @@ const NavBar = () => {
         <h1 className="font-extrabold pt-5 pl-3">Usman khan</h1>
       </div>
       <div className="flex">
-        <ul className="flex flex-wrap sticky">
-          <li className="p-4 ">About</li>
-          <li className="p-4 ">Services</li>
-          <li className="p-4 ">Portfolio</li>
-          <li className="p-4 ">Testimonials</li>
+        <ul className="flex flex-wrap sticky ">
+          <li className="p-4 hover:border-b-2 border-b-primaryLight hover:font-bold hover:text-primaryLight">
+            About
+          </li>
+          <li className="p-4 hover:border-b-2 border-b-primaryLight hover:font-bold hover:text-primaryLight">
+            Services
+          </li>
+          <li className="p-4 hover:border-b-2 border-b-primaryLight hover:font-bold hover:text-primaryLight">
+            Portfolio
+          </li>
+          <li className="p-4 hover:border-b-2 border-b-primaryLight hover:font-bold hover:text-primaryLight">
+            Testimonials
+          </li>
         </ul>
       </div>
       <div className="border-2 rounded-xl relative">
