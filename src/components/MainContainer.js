@@ -11,24 +11,15 @@ import {
 
 const MainContainer = () => {
   return (
-    <div className="flex flex-row flex-wrap mt-10   justify-around">
+    <div className="flex flex-row flex-wrap mt-12 justify-around">
       <div className="flex flex-col  lg:w-1/2 relative">
-        <span className="flex  text-primaryLight absolute top-1 lg:left-12 left-[-2rem]  ml-4 lg:ml-24   rotate-[-16deg]  text-2xl">
+        <span className="flex  text-primaryLight absolute top-1 lg:left-12 left-2  ml-4 lg:ml-24   rotate-[-16deg]  text-2xl">
           Hello!
         </span>
-        <h1 className="font-bold from-neutral-900 lg:text-[5.9rem] lg:px-[10.6rem] mt-10 lg:mt-5  px-0 text-6xl lg:text-left text-center">
-          <Wave
-            text="We have Design Experience"
-            effect="stretch"
-            effectChange={3.0}
-            paused={false}
-            effectDuration={0.4}
-          />
+        <h1 className="font-bold animate-pulse from-neutral-900 lg:text-[5.9rem] lg:px-[10.6rem] mt-10 lg:mt-5  px-0 text-6xl lg:text-left text-center">
+          We have Design Experience
         </h1>
-        <p className="pt-11 lg:text-left lg:px-[9rem] md:px-[14rem] px-10 text-center">
-          - Hi I am UI/UX Designer --- Creating bold and brave interface design
-          for Companies all across the world.
-        </p>
+
         <div className="flex mt-5 p-3 lg:ml-24 md:ml-24 ml-2 lg:justify-start justify-center">
           <button className="mr-4 bg-primaryLight lg:p-5 lg:pl-10 p-2 pt-4 pl-4 rounded-lg text-bgsecondaryGray font-bold flex justify-center">
             Lets Talk
@@ -69,11 +60,11 @@ const MainContainer = () => {
         <img
           src={containerImage}
           alt="image"
-          className="object-contain mt-12 lg:mt-0   rounded-full "
+          className="object-contain mt-12 lg:mt-0    "
         />
-        <p className="text-base font-bold">
+        {/* <p className="text-base font-bold">
           "People ignore Design that ignores people"
-        </p>
+        </p> */}
       </div>
     </div>
   );

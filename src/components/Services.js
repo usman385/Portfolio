@@ -4,9 +4,9 @@ import { BsArrowUpRight } from "react-icons/bs";
 const Services = () => {
   return (
     <div
-      className="flex lg:flex-row flex-col bg-primary 
+      className="flex lg:flex-row flex-col  bg-primary 
     lg:justify-around justify-center lg:mt-12 mt-0
-     lg:ml-14 lg:mr-14 mr-0 ml-0 flex-wrap md:content-center sm:pr-20"
+     lg:ml-14 lg:mr-14 mr-0 ml-0 flex-wrap md:content-center "
     >
       <div className="lg:w-1/2  w-full items-center  pl-10 lg:flex-nowrap flex lg:flex-col flex-row  flex-wrap  relative">
         <div className="mt-14 flex flex-col lg:justify-center justify-start lg:content-center content-start ">
