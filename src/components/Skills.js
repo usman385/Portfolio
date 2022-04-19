@@ -6,17 +6,21 @@ import javascript from "../assets/images/javascript.jpg";
 import material from "../assets/images/material.png";
 import redux from "../assets/images/redux.jpeg";
 import tailwind from "../assets/images/tailwind.jpg";
+import mongodb from "../assets/images/mongodb.png";
+import node from "../assets/images/node.jpg";
 import containerImage from "../assets/images/myimage.png";
 import { BsArrowUpRight } from "react-icons/bs";
 
 const skillsData = [
   { image: react, name: "React Js" },
   { image: react, name: "React Native" },
+  { image: mongodb, name: "MongoDB" },
+  { image: node, name: "Node js / Express" },
   { image: redux, name: "Redux" },
   { image: javascript, name: "JavaScript" },
   { image: html, name: "HTML" },
   { image: css, name: "CSS" },
-  { image: material, name: "Materual" },
+  { image: material, name: "Material UI" },
   { image: tailwind, name: "Tailwind / BootStrap" },
 ];
 
@@ -47,9 +51,13 @@ const Skills = () => {
           <div className="grid grid-cols-3  lg:grid-cols-3">
             {skillsData.map((data) => {
               return (
-                <div className="p-2">
-                  <img src={data.image} alt="images" className="h-16 w-16" />
-                  <span className="mt-6 font-bold text-center flex">
+                <div className="p-2 ">
+                  <img
+                    src={data.image}
+                    alt="images"
+                    className="h-16 w-16 hover:scale-y-[1.20] hover:scale-x-[1.20] hover:duration-500"
+                  />
+                  <span className="mt-6  text-center flex text-zinc-300">
                     {data.name}
                   </span>
                 </div>
@@ -114,7 +122,7 @@ const Skills = () => {
           </div>
 
           <div
-            className="bg-black border h-28 w-28 lg:h-44 lg:w-44 md:h-44 md:w-44 hover:animate-spin 2s linear;   top-[9rem] left-20
+            className="bg-black border h-28 w-28 lg:h-44 lg:w-44 md:h-44 md:w-44 animate-pulse 2s linear;   top-[9rem] left-20
               flex justify-center items-center 
               rounded-full  sm:mt-20  sm:ml-16 lg:top-52 
               lg:left-[7rem] md:top-52  
