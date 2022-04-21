@@ -1,6 +1,9 @@
 const defaultColors = require("tailwindcss/colors");
 module.exports = {
-  content: ["./src/**/*.{js,jsx,ts,tsx}"],
+  content: ["./src/**/*.{js,jsx,ts,tsx}", "./public/index.html"],
+  backgroundImage: {
+    "main-bgImage": "url('./src/assets/images/backgroundImage.jpg')",
+  },
   theme: {
     extend: {
       colors: {

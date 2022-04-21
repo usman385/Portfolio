@@ -4,9 +4,10 @@ import { BsArrowUpRight } from "react-icons/bs";
 const Services = () => {
   return (
     <div
+      id="services"
       className="flex lg:flex-row flex-col  bg-primary 
-    lg:justify-around justify-center lg:mt-12 mt-0
-     lg:ml-14 lg:mr-14 mr-0 ml-0 flex-wrap md:content-center "
+    lg:justify-around justify-center lg:mt-40 mt-6
+      flex-wrap md:content-center "
     >
       <div className="lg:w-1/2  w-full items-center  pl-10 lg:flex-nowrap flex lg:flex-col flex-row  flex-wrap  relative">
         <div className="mt-14 flex flex-col lg:justify-center justify-start lg:content-center content-start ">
@@ -17,9 +18,9 @@ const Services = () => {
             Services I offer
           </h1>
           <p className="flex lg:mt-6 font-semibold lg:text-xl text-sm text-left">
-            We Help ambitious business like your generate more
-            <br /> profits by building awerness, driving web traffic <br />{" "}
-            connecting with customers and growing overall{" "}
+            We Help ambitious business like your generate more <br /> profits by
+            building awerness, driving web traffic connecting <br /> with
+            customers and growing overall
           </p>
         </div>
 
@@ -27,7 +28,7 @@ const Services = () => {
           className="bg-primary  rounded-full border-2 border-black
           flex content-end  justify-center items-center flex-wrap lg:flex-nowrap
          lg:h-48 lg:w-48 md:h-36 md:w-36 h-20 w-20 mt-[4rem] absolute lg:top-[42rem]  md:bottom-0 bottom-24 lg:bottom-0
-         lg:left-44 md:left-[30rem] left-72 "
+         lg:left-44 md:left-[30rem] left-64 "
         >
           <p
             className="bg-primary border-black  rounded-full border-2 lg:mb-0 mb-[0.37rem]
