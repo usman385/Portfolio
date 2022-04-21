@@ -8,7 +8,7 @@ import redux from "../assets/images/redux.jpeg";
 import tailwind from "../assets/images/tailwind.jpg";
 import mongodb from "../assets/images/mongodb.png";
 import node from "../assets/images/node.jpg";
-import containerImage from "../assets/images/myimage.png";
+import containerImage from "../assets/images/myimage_ccexpress.png";
 import { BsArrowUpRight } from "react-icons/bs";
 
 const skillsData = [
@@ -26,14 +26,18 @@ const skillsData = [
 
 const Skills = () => {
   return (
-    <div className="flex flex-row justify-between mt-12 ml-14 mr-14 flex-wrap lg:flex-nowrap ">
+    <div
+      id="skills"
+      className="flex flex-row px-14 justify-between mt-8  flex-wrap lg:flex-nowrap 
+    "
+    >
       <div
         className="mt-5 flex-wrap lg:w-1/2 w-full justify-center lg:content-start
-       content-center lg:items-start items-center  lg:flex-nowrap flex relative flex-col"
+       content-center lg:items-start items-center   lg:flex-nowrap flex relative flex-col"
       >
         <span
           className="flex text-primaryLight lg:font-bold rotate-[-16deg]
-         absolute lg:top-32 top-0 lg:left-0 md:left-52 left-4 text-base lg:mt-2 "
+         absolute lg:top-32 top-0 lg:left-0 md:left-52 left-4 text-base lg:mt-2  "
         >
           Skills
         </span>
@@ -45,10 +49,10 @@ const Skills = () => {
           <br /> profits by building awerness, driving web traffic <br />{" "}
           connecting with customers and growing overall{" "}
         </p>
-        <div className="flex mt-14 flex-col">
-          <h1 className="font-bold lg:text-4xl text-2xl flex">Skills</h1>
+        <div className="flex mt-14 flex-col ">
+          <h1 className="font-bold lg:text-4xl text-2xl  flex">Skills</h1>
 
-          <div className="grid grid-cols-3  lg:grid-cols-3">
+          <div className="grid grid-cols-3  lg:grid-cols-3 ">
             {skillsData.map((data) => {
               return (
                 <div className="p-2 ">
@@ -57,7 +61,7 @@ const Skills = () => {
                     alt="images"
                     className="h-16 w-16 hover:scale-y-[1.20] hover:scale-x-[1.20] hover:duration-500"
                   />
-                  <span className="mt-6  text-center flex text-zinc-300">
+                  <span className="mt-3  text-center flex text-sm">
                     {data.name}
                   </span>
                 </div>
@@ -67,7 +71,7 @@ const Skills = () => {
         </div>
       </div>
 
-      <div className="lg:mt-28 mt-6 flex  justify-between flex-col ">
+      <div className="lg:mt-36 mt-8 flex  justify-between  flex-col ">
         <p className="flex font-bold lg:text-4xl  text-2xl">Experience</p>
         <hr className="mt-8 lg:w-auto md:w-auto w-72 flex justify-end border-black" />
 
@@ -124,9 +128,9 @@ const Skills = () => {
           <div
             className="bg-black border h-28 w-28 lg:h-44 lg:w-44 md:h-44 md:w-44 animate-pulse 2s linear;   top-[9rem] left-20
               flex justify-center items-center 
-              rounded-full  sm:mt-20  sm:ml-16 lg:top-52 
-              lg:left-[7rem] md:top-52  
-          md:left-[7rem]  absolute  "
+              rounded-full   lg:top-52 
+              lg:left-[7rem] md:top-72  
+          md:left-[10rem]  absolute  "
           >
             <p className="bg-black rounded-full border h-24 w-24 lg:h-36 lg:w-36 md:h-36 md:w-36   items-center ">
               <span className="text-slate-50 flex justify-center content-center  lg:mt-12 md:mt-12 mt-6 lg:text-sm md:text-sm text-xs font-bold m-1 p-2">

@@ -4,12 +4,13 @@ import { BiCurrentLocation } from "react-icons/bi";
 import { BsArrowUpRight } from "react-icons/bs";
 import { MdWavingHand } from "react-icons/md";
 
-const ClientProject = () => {
+const ContactUs = () => {
   return (
     <div
-      className=" flex flex-col justify-between  mt-24 lg:ml-14 flex-wrap lg:flex-nowrap
+      id="contact"
+      className=" flex flex-col justify-between  lg:mt-24 mt-8  flex-wrap lg:flex-nowrap
     rounded-b-md
-    lg:mr-14 mr-0 sm:mr-0 mb-4 bg-primary "
+    mb-4 bg-primary "
     >
       <div className=" flex flex-wrap lg:flex-nowrap justify-around lg:pl-8 ">
         <div className="relative">
@@ -82,13 +83,13 @@ const ClientProject = () => {
         </div>
       </div>
       <hr className="mt-10 border border-black ml-28 mr-28 " />
-      <div className="flex lg:flex-nowrap flex-wrap justify-between pl-28 pr-28 mt-4 pb-14">
-        <p className="flex font-bold"> ©2022 All Right Reserved</p>
-        <p className="flex font-bold">Designed By Usman khan</p>
-        <p className="flex font-bold">khanu6935@gmail.com</p>
+      <div className="flex lg:flex-nowrap flex-wrap justify-between pl-28 lg:pr-28 pr-0 mt-4 pb-14">
+        <p className="flex font-bold text-center"> ©2022 All Right Reserved</p>
+        <p className="flex font-bold text-center">Designed By Usman khan</p>
+        <p className="flex font-bold text-center">khanu6935@gmail.com</p>
       </div>
     </div>
   );
 };
 
-export default ClientProject;
+export default ContactUs;
