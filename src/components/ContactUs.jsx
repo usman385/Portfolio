@@ -1,7 +1,7 @@
 import React from "react";
 import { RiMessage2Fill } from "react-icons/ri";
 import { BiCurrentLocation } from "react-icons/bi";
-import { BsArrowUpRight } from "react-icons/bs";
+import { BsArrowUpRight, BsFillTelephoneForwardFill } from "react-icons/bs";
 import { MdWavingHand } from "react-icons/md";
 
 const ContactUs = () => {
@@ -32,8 +32,14 @@ const ContactUs = () => {
             </div>
             <div className="flex flex-col text-left ml-6">
               <span className="flex  font-bold text-darkgray">Email</span>
-              <p className="mt-1 ml-0 font-bold lg:text-2xl text-lg">
-                khanu6935@gmail.com
+              <a href="https://mail.google.com/mail/u/1/#inbox">
+                <p className="mt-1 ml-0 cursor-pointer hover:underline font-bold lg:text-2xl text-lg">
+                  khanu6935@gmail.com
+                </p>
+              </a>
+
+              <p className="flex">
+                <BsFillTelephoneForwardFill className="mt-1" />: 0300 5487511
               </p>
             </div>
           </div>

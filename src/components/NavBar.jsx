@@ -49,7 +49,7 @@ const NavBar = () => {
         </div>
 
         <div
-          className={`flex md:flex-row absolute md:static  flex-col p-4 lg:bg-transparent bg-primary  
+          className={`flex md:flex-row absolute md:static  flex-col p-4 lg:bg-transparent md:bg-transparent  bg-primary  
         py-4 w-full duration-500 transition-all ease-in ${
           open ? "right-[0.5vw]  top-20 " : "right-[-170vw] top-[-20rem]"
         }`}

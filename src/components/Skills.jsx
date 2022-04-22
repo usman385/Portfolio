@@ -97,7 +97,7 @@ const Skills = () => {
           </span>
           <div className="flex flex-col">
             <h1 className="font-semibold lg:text-4xl md:text-2xl text-xl lg:ml-9 ml-4 ">
-              UI/UX Designer
+              Back-end Developer
             </h1>
             <span className="flex mt-4 lg:ml-11 ml-5 md:text-lg  lg:font-bold font-semibold text-darkgray">
               NESL-IT
@@ -113,7 +113,7 @@ const Skills = () => {
           </span>
           <div className="flex flex-col">
             <h1 className="font-semibold lg:text-4xl md:text-2xl text-xl lg:ml-9 ml-4 ">
-              Web UI/UX Designer
+              Error Handling
             </h1>
             <span className="flex mt-4 lg:ml-11 ml-5 md:text-lg  lg:font-bold font-semibold text-darkgray">
               NESL-IT
@@ -128,8 +128,8 @@ const Skills = () => {
           <div
             className="bg-black border h-28 w-28 lg:h-44 lg:w-44 md:h-44 md:w-44 animate-pulse 2s linear;   top-[9rem] left-20
               flex justify-center items-center 
-              rounded-full   lg:top-52 
-              lg:left-[7rem] md:top-72  
+              rounded-full   lg:top-72 
+              lg:left-[10rem] md:top-72  
           md:left-[10rem]  absolute  "
           >
             <p className="bg-black rounded-full border h-24 w-24 lg:h-36 lg:w-36 md:h-36 md:w-36   items-center ">

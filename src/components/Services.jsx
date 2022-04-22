@@ -52,7 +52,7 @@ const Services = () => {
               01/
             </span>
             <h1 className="lg:font-bold font-bold lg:text-5xl text-5xl ml-11">
-              Web UI/UX design
+              Web Front-end Design
             </h1>
           </div>
           <div className="flex justify-between lg:mt-24 mt-12">
@@ -73,9 +73,7 @@ const Services = () => {
 
           <div className="flex mt-6">
             <span className="font-bold text-2xl lg:pl-2 pl-5">02/</span>
-            <h1 className="font-bold text-5xl ml-11">
-              Mobile App UI/UX design
-            </h1>
+            <h1 className="font-bold text-5xl ml-11">Back-end Development</h1>
           </div>
           <div className="flex justify-between lg:mt-20 mt-12">
             <p className="font-medium lg:text-xl text-lg mt-8 lg:ml-0 ml-3">
