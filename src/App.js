@@ -15,14 +15,6 @@ function App() {
           <Route path="/BlogsPage" element={<BlogsPage />} />
         </Routes>
       </BrowserRouter>
-      <HashRouter>
-        <Routes>
-          <Route path="/ProjectsPage" element={<ProjectsPage />} />
-          <Route path="/SkillsPage" element={<SkillsPage />} />
-          <Route path="/ServicesPage" element={<ServicesPage />} />
-          <Route path="/ContactUs" element={<ContactUs />} />
-        </Routes>
-      </HashRouter>
     </>
   );
 }
