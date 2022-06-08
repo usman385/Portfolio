@@ -5,30 +5,35 @@ import html from "../assets/images/html.png";
 import javascript from "../assets/images/javascript.jpg";
 import material from "../assets/images/material.png";
 import redux from "../assets/images/redux.jpeg";
-import tailwind from "../assets/images/tailwind.jpg";
+import tailwind from "../assets/images/tailwind.png";
 import mongodb from "../assets/images/mongodb.png";
-import node from "../assets/images/node.jpg";
+import node from "../assets/images/node.png";
+import bootstrap from "../assets/images/bootstrap.png";
+import express from "../assets/images/expresss.png";
 import containerImage from "../assets/images/myimage_ccexpress.png";
 import { BsArrowUpRight } from "react-icons/bs";
+import sasha from "../assets/images/sasha.jpg"
 
 const skillsData = [
   { image: react, name: "React Js" },
   { image: react, name: "React Native" },
   { image: mongodb, name: "MongoDB" },
-  { image: node, name: "Node js / Express" },
+  { image: node, name: "Node js" },
+  { image: express, name: "Express js" },
   { image: redux, name: "Redux" },
   { image: javascript, name: "JavaScript" },
   { image: html, name: "HTML" },
   { image: css, name: "CSS" },
+  { image: bootstrap, name: "BootStrap" },
   { image: material, name: "Material UI" },
-  { image: tailwind, name: "Tailwind / BootStrap" },
+  { image: tailwind, name: "Tailwind " },
 ];
 
 const Skills = () => {
   return (
     <div
       id="skills"
-      className="flex flex-row px-14 justify-between mt-8  flex-wrap lg:flex-nowrap 
+      className="flex bg-[url('assets/images/aleksander.jpg')] flex-row px-14 justify-between mt-8  flex-wrap lg:flex-nowrap 
     "
     >
       <div
@@ -52,7 +57,7 @@ const Skills = () => {
         <div className="flex mt-14 flex-col ">
           <h1 className="font-bold lg:text-4xl text-2xl  flex">Skills</h1>
 
-          <div className="grid grid-cols-3  lg:grid-cols-3 ">
+          <div className="grid grid-cols-3 gap-x-8 lg:grid-cols-3 ">
             {skillsData.map((data) => {
               return (
                 <div className="p-2 ">

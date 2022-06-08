@@ -60,11 +60,7 @@ const MainContainer = () => {
                 {" "}
                 Download CV{" "}
               </a>
-              <span>
-                <button>
-                  <GrResume className="text-white" />
-                </button>
-              </span>
+            
             </button>
           </div>
 
@@ -104,7 +100,7 @@ const MainContainer = () => {
           <img
             src={profile}
             alt="image"
-            className="object-contain lg:mt-16 md:mt-14 mt-3  "
+            className="object-contain containerimage lg:mt-16 md:mt-14 mt-3  "
           />
         </div>
       </div>

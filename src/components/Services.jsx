@@ -5,19 +5,19 @@ const Services = () => {
   return (
     <div
       id="services"
-      className="flex lg:flex-row flex-col  bg-primary 
+      className="flex lg:flex-row flex-col  divbackgroundcolor 
     lg:justify-around justify-center lg:mt-40 mt-6
       flex-wrap md:content-center "
     >
       <div className="lg:w-1/2  w-full items-center  pl-10 lg:flex-nowrap flex lg:flex-col flex-row  flex-wrap  relative">
         <div className="mt-14 flex flex-col lg:justify-center justify-start lg:content-center content-start ">
-          <span className="flex text-primaryLight lg:font-bold rotate-[-16deg] lg:mb-20 md:mb:10 absolute top-14   text-base lg:mt-2">
+          <span className="flex text-primaryLight lg:font-bold rotate-[-16deg] lg:mb-20 md:mb:10 absolute top-14   text-base text-white lg:mt-2">
             Services
           </span>
-          <h1 className="font-bold lg:text-8xl text-2xl  flex mt-8 flex-wrap text-left">
+          <h1 className="font-bold text-white lg:text-8xl text-2xl  flex mt-8 flex-wrap text-left">
             Services I offer
           </h1>
-          <p className="flex lg:mt-6 font-semibold lg:text-xl text-sm text-left">
+          <p className="flex lg:mt-6 font-semibold lg:text-xl text-sm text-left text-white">
             We Help ambitious business like your generate more <br /> profits by
             building awerness, driving web traffic connecting <br /> with
             customers and growing overall
@@ -48,15 +48,15 @@ const Services = () => {
           <hr className="mt-2 lg:ml-3 ml-12 w-auto border-[1px] border-black" />
 
           <div className="flex  mt-10 ">
-            <span className="font-bold lg:text-2xl text-lg lg:pl-2 pl-5">
+            <span className="font-bold lg:text-2xl text-white text-lg lg:pl-2 pl-5">
               01/
             </span>
-            <h1 className="lg:font-bold font-bold lg:text-5xl text-5xl ml-11">
+            <h1 className="lg:font-bold font-bold text-white  lg:text-5xl text-5xl ml-11">
               Web Front-end Design
             </h1>
           </div>
           <div className="flex justify-between lg:mt-24 mt-12">
-            <p className="font-medium lg:text-xl text-lg mt-8 lg:ml-0 ml-3">
+            <p className="font-medium lg:text-xl text-white  text-lg mt-8 lg:ml-0 ml-3">
               Explore
             </p>
             <button
@@ -72,11 +72,11 @@ const Services = () => {
           <hr className="mt-2 w-auto lg:ml-3 ml-12 border-[1px] border-black" />
 
           <div className="flex mt-6">
-            <span className="font-bold text-2xl lg:pl-2 pl-5">02/</span>
-            <h1 className="font-bold text-5xl ml-11">Back-end Development</h1>
+            <span className="font-bold text-2xl lg:pl-2 text-white  pl-5">02/</span>
+            <h1 className="font-bold text-5xl text-white  ml-11">Back-end Development</h1>
           </div>
           <div className="flex justify-between lg:mt-20 mt-12">
-            <p className="font-medium lg:text-xl text-lg mt-8 lg:ml-0 ml-3">
+            <p className="font-medium text-white  lg:text-xl text-lg mt-8 lg:ml-0 ml-3">
               Explore
             </p>
             <button
@@ -92,17 +92,17 @@ const Services = () => {
           <hr className=" w-auto lg:ml-3 ml-12 border-[1px] border-black" />
 
           <div className="flex mt-6">
-            <span className="font-bold text-2xl lg:pl-2 pl-5">03/</span>
-            <h1 className="font-bold text-5xl ml-11">
+            <span className="font-bold text-2xl text-white  lg:pl-2 pl-5">03/</span>
+            <h1 className="font-bold text-5xl text-white  ml-11">
               Dashboard & SAAS design
             </h1>
           </div>
           <div className="flex justify-between lg:mt-16  mt-12">
-            <p className="font-medium lg:text-xl text-lg pt-8 lg:ml-0 ml-3">
+            <p className="font-medium lg:text-xl text-white  text-lg pt-8 lg:ml-0 ml-3">
               Explore
             </p>
             <button
-              className="rounded-full flex bg-primaryLight text-bgsecondaryGray justify-center mb-14 p-5 lg:p-7 text-lg lg:text-xl 
+              className="rounded-full flex bg-primaryLight text-white justify-center mb-14 p-5 lg:p-7 text-lg lg:text-xl 
               hover:bg-secondaryGray
               hover:text-black"
             >

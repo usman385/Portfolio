@@ -3,10 +3,37 @@
 @tailwind utilities;
 
 .footerClass {
-    background-image: linear-gradient(
-      180deg,
-      transparent,
-      rgba(210, 201, 108, 0.127),
-      #000
-    );
+  background-image: linear-gradient(
+    180deg,
+    transparent,
+    rgba(210, 201, 108, 0.127),
+    #000
+  );
+}
+.containerimage {
+  width: 100%;
+  height: 100%;
+}
+@media (max-width: 764px) {
+  .containerimage {
+    width: 100%;
+    height: 70%;
+    margin-top: 0 !important;
   }
+}
+.divbackgroundcolor {
+  background-image: linear-gradient(-45deg, black, #111720, #bfbfbf, black);
+  background-size: 400% 400%;
+  animation: change 20s ease-in-out infinite;
+}
+@keyframes change {
+  0% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0 50%;
+  }
+}

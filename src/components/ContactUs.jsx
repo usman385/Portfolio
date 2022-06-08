@@ -10,14 +10,14 @@ const ContactUs = () => {
       id="contact"
       className=" flex flex-col justify-between  lg:mt-24 mt-8  flex-wrap lg:flex-nowrap
     rounded-b-md
-    mb-4 bg-primary "
+    mb-4 bg-[url('assets/images/aleksander.jpg')] "
     >
       <div className=" flex flex-wrap lg:flex-nowrap justify-around lg:pl-8 ">
         <div className="relative">
           <span className=" flex text-primaryLight lg:font-bold rotate-[-16deg] mt-14 absolute">
             Contact
           </span>
-          <h1 className="flex font-bold lg:text-6xl text-2xl text-left mt-20">
+          <h1 className="flex font-bold   lg:text-6xl text-2xl text-left mt-20">
             Let's Discuss <br /> Your Project
           </h1>
           <hr className="mt-28 w-auto border-black border-2 rounded-md mr-4" />
@@ -31,15 +31,18 @@ const ContactUs = () => {
               </span>
             </div>
             <div className="flex flex-col text-left ml-6">
-              <span className="flex  font-bold text-darkgray">Email</span>
+              <span className="flex  font-bold   text-darkgray">Email</span>
               <a href="https://mail.google.com/mail/u/1/#inbox">
-                <p className="mt-1 ml-0 cursor-pointer hover:underline font-bold lg:text-2xl text-lg">
+                <p className="mt-1 ml-0   cursor-pointer hover:underline font-bold lg:text-2xl text-lg">
                   khanu6935@gmail.com
                 </p>
               </a>
 
               <p className="flex">
-                <BsFillTelephoneForwardFill className="mt-1" />: 0300 5487511
+                <BsFillTelephoneForwardFill className="mt-1  " />
+                <span className=" ">
+               : 0300 5487511
+                  </span> 
               </p>
             </div>
           </div>
@@ -53,8 +56,8 @@ const ContactUs = () => {
               <BiCurrentLocation />
             </button>
             <div className="flex flex-col text-left ml-6">
-              <span className="flex  font-bold text-darkgray">Location</span>
-              <p className="mt-1 font-bold lg:text-2xl text-lg">
+              <span className="flex  font-bold   text-darkgray">Location</span>
+              <p className="mt-1 font-bold   lg:text-2xl text-lg">
                 Rawalpindi Pakistan
               </p>
             </div>
@@ -68,7 +71,7 @@ const ContactUs = () => {
         >
           <div className="flex justify-between">
             <div className="mr-7 lg:mt-16 mt-12">
-              <span className="lg:mt-32 mt-0 ml-8 text-zinc-900 font-bold">
+              <span className="lg:mt-32  text-white  mt-0 ml-8  font-bold">
                 Say Hi!
               </span>
               <span className="text-amber-900 mt-24 text-4xl">
@@ -90,9 +93,9 @@ const ContactUs = () => {
       </div>
       <hr className="mt-10 border border-black ml-28 mr-28 " />
       <div className="flex lg:flex-nowrap flex-wrap justify-between pl-28 lg:pr-28 pr-0 mt-4 pb-14">
-        <p className="flex font-bold text-center"> ©2022 All Right Reserved</p>
-        <p className="flex font-bold text-center">Designed By Usman khan</p>
-        <p className="flex font-bold text-center">khanu6935@gmail.com</p>
+        <p className="flex font-bold   text-center"> ©2022 All Right Reserved</p>
+        <p className="flex font-bold   text-center">Designed By Usman khan</p>
+        <p className="flex font-bold   text-center">khanu6935@gmail.com</p>
       </div>
     </div>
   );

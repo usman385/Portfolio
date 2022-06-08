@@ -30,7 +30,7 @@ const NavBar = () => {
   return (
     <div
       className={`flex justify-between md:px-6 px-2 duration-500 fixed lg:flex-nowrap flex-wrap top-0 w-full z-50 ${
-        show && "bg-primary   text-black duration-500 "
+        show && "bg-primary   text-white duration-500 "
       }`}
     >
       <div className="flex p-4 m-3">
@@ -43,7 +43,7 @@ const NavBar = () => {
       <div className="flex md:w-auto w-full">
         <div
           onClick={() => setopen(!open)}
-          className="text-3xl  absolute top-[1.8rem]  right-8 cursor-pointer md:hidden"
+          className="text-3xl text-white   absolute top-[1.8rem]  right-8 cursor-pointer md:hidden"
         >
           {open ? <GiCrossMark /> : <AiOutlineMenu />}
         </div>
