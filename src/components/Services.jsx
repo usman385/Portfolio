@@ -25,13 +25,13 @@ const Services = () => {
         </div>
 
         <div
-          className="bg-primary  rounded-full border-2 border-black
+          className="  rounded-full border-2 border-black
           flex content-end  justify-center items-center flex-wrap lg:flex-nowrap
          lg:h-48 lg:w-48 md:h-36 md:w-36 h-20 w-20 mt-[4rem] absolute lg:top-[42rem]  md:bottom-0 bottom-24 lg:bottom-0
          lg:left-44 md:left-[30rem] left-64 "
         >
           <p
-            className="bg-primary border-black  rounded-full border-2 lg:mb-0 mb-[0.37rem]
+            className=" border-black  rounded-full border-2 lg:mb-0 mb-[0.37rem]
            md:mb-3 h-16 w-16 lg:h-36 lg:w-36 md:h-28 md:w-28   items-center "
           >
             <span
@@ -48,7 +48,7 @@ const Services = () => {
           <hr className="mt-2 lg:ml-3 ml-12 w-auto border-[1px] border-black" />
 
           <div className="flex  mt-10 ">
-            <span className="font-bold lg:text-2xl text-white text-lg lg:pl-2 pl-5">
+            <span className="font-bold lg:text-2xl text-white text-lg lg:pl-2 ">
               01/
             </span>
             <h1 className="lg:font-bold font-bold text-white  lg:text-5xl text-5xl ml-11">
@@ -72,8 +72,8 @@ const Services = () => {
           <hr className="mt-2 w-auto lg:ml-3 ml-12 border-[1px] border-black" />
 
           <div className="flex mt-6">
-            <span className="font-bold text-2xl lg:pl-2 text-white  pl-5">02/</span>
-            <h1 className="font-bold text-5xl text-white  ml-11">Back-end Development</h1>
+            <span className="font-bold text-2xl lg:pl-2 text-white  ">02/</span>
+            <h1 className="font-bold text-4xl text-white  ml-11">Back-end Development</h1>
           </div>
           <div className="flex justify-between lg:mt-20 mt-12">
             <p className="font-medium text-white  lg:text-xl text-lg mt-8 lg:ml-0 ml-3">
@@ -92,7 +92,7 @@ const Services = () => {
           <hr className=" w-auto lg:ml-3 ml-12 border-[1px] border-black" />
 
           <div className="flex mt-6">
-            <span className="font-bold text-2xl text-white  lg:pl-2 pl-5">03/</span>
+            <span className="font-bold text-2xl text-white  lg:pl-2 ">03/</span>
             <h1 className="font-bold text-5xl text-white  ml-11">
               Dashboard & SAAS design
             </h1>
