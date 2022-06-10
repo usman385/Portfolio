@@ -43,12 +43,12 @@ const Services = () => {
           </p>
         </div>
       </div>
-      <div className="w-1/2 pr-10 flex flex-col lg:flex-nowrap flex-wrap">
-        <div className="lg:mt-28 mt-12 flex flex-col lg:flex-nowrap flex-wrap">
+      <div className="w-1/2 pr-10 flex  flex-col lg:flex-nowrap flex-wrap">
+        <div className="lg:mt-28 mt-12 flex flex-col justify-center lg:flex-nowrap flex-wrap">
           <hr className="mt-2 lg:ml-3 ml-12 w-auto border-[1px] border-black" />
 
           <div className="flex  mt-10 ">
-            <span className="font-bold lg:text-2xl text-white text-lg lg:pl-2 ">
+            <span className="font-bold lg:text-2xl text-white text-lg lg:pl-2  ">
               01/
             </span>
             <h1 className="lg:font-bold font-bold text-white  lg:text-5xl text-5xl ml-11">
