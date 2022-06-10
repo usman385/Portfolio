@@ -30,7 +30,7 @@ const NavBar = () => {
   return (
     <div
       className={`flex justify-between md:px-6 px-2 duration-500 fixed lg:flex-nowrap flex-wrap top-0 w-full z-50 ${
-        show && "bg-primary   text-white duration-500 "
+        show && "bg-primary opacity-75  text-white duration-500 "
       }`}
     >
       <div className="flex p-4 m-3">
