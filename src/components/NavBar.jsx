@@ -65,7 +65,6 @@ const NavBar = () => {
                   <HashLink smooth to={item.link}>
                     {item.name}
                   </HashLink>
-                  {/* <a href={item.link}>{item.name}</a> */}
                 </li>
               );
             })}

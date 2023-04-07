@@ -40,9 +40,7 @@ const ContactUs = () => {
 
               <p className="flex">
                 <BsFillTelephoneForwardFill className="mt-1  " />
-                <span className=" ">
-               : 0300 5487511
-                  </span> 
+                <span className=" ">: 0300 5487511</span>
               </p>
             </div>
           </div>
@@ -93,7 +91,10 @@ const ContactUs = () => {
       </div>
       <hr className="mt-10 border border-black ml-28 mr-28 " />
       <div className="flex lg:flex-nowrap flex-wrap justify-between pl-28 lg:pr-28 pr-0 mt-4 pb-14">
-        <p className="flex font-bold   text-center"> ©2022 All Right Reserved</p>
+        <p className="flex font-bold   text-center">
+          {" "}
+          ©2022 All Right Reserved
+        </p>
         <p className="flex font-bold   text-center">Designed By Usman khan</p>
         <p className="flex font-bold   text-center">khanu6935@gmail.com</p>
       </div>
