@@ -71,8 +71,6 @@ const Projects = () => {
         </div>
       </div>
 
-      {/*3nd project div */}
-
       <div className=" flex flex-col">
         <hr className="mt-16 w-auto border-black border-2 rounded-md mr-4" />
         <h1 className="font-semibold text-white  text-4xl flex mt-8 lg:text-left text-center ">
